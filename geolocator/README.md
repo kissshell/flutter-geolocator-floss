@@ -2,7 +2,6 @@
 
 A fork of the [Flutter geolocation plugin](https://pub.dev/packages/geolocator) implementing no proprietary classes for Android.
 
-<<<<<<< HEAD
 ### How to use FLOSS Geolocator for Flutter applications:
 
 Import normal `geolocator` as known. You may also use other packages using `geolocator` as dependency.
