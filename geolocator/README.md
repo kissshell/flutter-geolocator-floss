@@ -19,8 +19,8 @@ To use FLOSS `geolocator` (e.g. only for the FLOSS builds), you can simply add a
 dependency_overrides:
   geolocator:
     git:
-      url: https://gitlab.com/free2pass/flutter-geolocator-floss.git
-      ref: master
+      url: https://gitlab.com/hanntech-gmbh/free2pass/flutter-geolocator-floss.git
+      ref: master # or e.g. `7.6.2` for an explicit version
       path: geolocator
 ```
 
