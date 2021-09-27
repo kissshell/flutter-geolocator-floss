@@ -13,7 +13,6 @@ cache:
 build:repo:
   stage: build
   script:
-    - git remote add origin https://gitlab.com/hanntech-gmbh/free2pass/flutter-geolocator-floss.git
     - git fetch origin
     - export PATH="$PATH:$HOME/.pub-cache/bin"
     - flutter pub global activate repo_pub_server
