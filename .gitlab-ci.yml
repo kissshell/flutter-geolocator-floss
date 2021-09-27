@@ -14,6 +14,7 @@ build:repo:
   stage: build
   script:
     - git fetch origin
+    - git fetch --tags
     - git --no-pager tag -l
     - export PATH="$PATH:$HOME/.pub-cache/bin"
     - flutter pub global activate repo_pub_server
